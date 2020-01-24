@@ -1,0 +1,9 @@
+name: Thanos
+url: https://thanos.io
+modules:
+  - name: kube-thanos
+    import: https://github.com/thanos-io/kube-thanos
+    maintainer: project
+mixins:
+  - import: github.com/thanos-io/thanos/mixin/thanos
+    maintainer: project

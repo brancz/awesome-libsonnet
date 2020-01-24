@@ -1,0 +1,5 @@
+name: Gluster
+url: https://www.gluster.org/
+modules:
+  - import: https://github.com/gluster/gluster-mixins
+    maintainer: project

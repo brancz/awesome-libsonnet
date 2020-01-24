@@ -1,0 +1,5 @@
+name: Grafana
+url: https://grafana.com/
+modules:
+  - import: https://github.com/brancz/kubernetes-grafana
+    maintainer: @brancz

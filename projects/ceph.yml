@@ -1,0 +1,5 @@
+name: Ceph
+url: https://ceph.io/
+modules:
+  - import: https://github.com/ceph/ceph-mixins
+    maintainer: project

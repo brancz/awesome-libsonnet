@@ -1,0 +1,6 @@
+name: etcd
+url: https://github.com/etcd-io/etcd
+modules:
+mixins:
+  - import: github.com/etcd-io/etcd/Documentation/etcd-mixin
+    maintainer: project

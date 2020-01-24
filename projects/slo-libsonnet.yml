@@ -1,0 +1,5 @@
+name: slo-libsonnet
+url: https://github.com/metalmatze/slo-libsonnet
+modules:
+  - import: https://github.com/metalmatze/slo-libsonnet
+    maintainer: @metalmatze

@@ -1,0 +1,5 @@
+name: CoreDNS
+url: https://coredns.io/
+modules:
+  - import: https://github.com/brancz/coredns-jsonnet
+    maintainer: @brancz

@@ -1,0 +1,9 @@
+name: kube-state-metrics
+url: https://github.com/kubernetes/kube-state-metrics
+modules:
+  - name: kube-state-metrics
+    import: https://github.com/kubernetes/kube-state-metrics/jsonnet/kube-state-metrics
+    maintainer: project
+mixins:
+    import: https://github.com/kubernetes/kube-state-metrics/jsonnet/kube-state-metrics-mixin
+    maintainer: project
